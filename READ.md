@@ -1,0 +1,3 @@
+In this exercise, I had the goal of creating a landing page that matched the given screenshot of the landing page from the Odin Project. In creating this landing page, I strengthened my understanding of how to use HTML and CSS together. I focused on using flexbox and gained experience with CSS. Also, I am continuing to become more comfortable using Git.
+
+My skills designing the layout of a website will be useful as I put together my own web-apps.
