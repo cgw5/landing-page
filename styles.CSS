@@ -189,32 +189,47 @@
     display: flex;
     border-radius: 10px;
     background-color: #3882f6;
+    padding: 40px 80px;
+    margin: 0 19%;
+    margin-top: 180px;
+    margin-bottom: 100px;
 }
 
 .call-left {
-    flex: 1;
+    flex: 1 2 auto;
     display: flex;
     flex-direction: column;
+    background-color: #3882f6;
 }
 
 .call-header{
     flex: 1;
     color: #f9faf8;
+    background-color: #3882f6;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 3px;
 }
 
-.signup-2 {
+.call-left .subtext {
+    background-color: #3882f6;
+}
+
+.call-right {
+    display: flex;
     flex: 1;
     background-color: #3882f6;
-    color: #f9faf8;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 8px;
-    border: 1px solid #f9faf8;
-    padding: 5px 25px;
+    align-items: center;
+    flex-direction: column;
+
 }
+
+.signup-2 {
+    margin: 15px;
+    border: 1px solid #f9faf8;
+
+}
+
 /* footer */
 
 .footer {
@@ -222,5 +237,5 @@
     font-size: 18px;
     text-align: center;
     background-color: #1f2937;
-    padding: 10px;
+    padding: 45px;
 }
