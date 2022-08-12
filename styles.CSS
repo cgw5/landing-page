@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* style for header portion with blue background */
+
 .header-container {
     display: flex;
     flex-direction: column;
@@ -40,12 +42,14 @@
     display: flex;
     flex: 1;
     padding: 1%;
-    margin: 7.5% 15%;
+    margin: 5% 15%;
     align-items: center;
+    gap: 30px;
 }
 
 .left {
     flex: 1;
+    margin-right: 30px;
 }
 
 .hero {
@@ -74,12 +78,65 @@
     padding: 5px 25px;
 }
 
-.right .img{
+.right img {
     flex: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 250px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
 }
 
-img{
+/* style for middle portion with white backgruond and boxes */
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:bolder;
+    text-align: center;
+    margin: 2.5%;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boxes {
+    display: flex;
     flex: 1;
-    height: auto;
-    width: 390px;
+    padding-bottom: 1%;
+    margin: 0 15%;
+    justify-content: center;
+    gap: 80px;
+}
+
+.box-item img{
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.caption {
+    display: flex;
+    flex: 1;
+    margin: 0 15%;
+    justify-content: center;
+    gap: 80px;
+}
+
+.caption-subtext {
+    height: 250px;
+    width: 200px;
+    color: #3d5281;
+    font-size: 18px;
+    text-align: center;
 }
